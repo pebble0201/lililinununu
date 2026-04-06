@@ -28,3 +28,21 @@ df 마운트된 파티션의 사용량 확인
 
 
 **shell
+안쪽 h/w -> 커널 -> 쉘 -> 응용프로그램
+
+현재 가능한 shell찾아보기
+cat /etc/shells
+
+현재 실행중인 shell
+echo $SHELL
+
+cat /etc/passwd
+
+셸 변경 "chsh"로 변경 가능함
+chsh 마뫄  -s /bin/ksh 
+
+환경설정
+
+환경변수 env
+
+셸변수 set
